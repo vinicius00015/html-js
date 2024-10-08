@@ -8,9 +8,29 @@
 </head>
 <body>
   <SCript>
-    document.write ("Obrigado entrar em meu site!      ")
-    document.write ("Meu nome e Vinicius, e minha idade e ")
-    document.write ("15")
+
+    function pulaLinha(){
+      document.write("<br><br>")
+    }
+    function mostreTexto(texto){
+      document.write(texto)
+      pulaLinha
+    }
+
+    let ano = 2024
+    let idade = ano - 2009
+
+
+    document.write('Obrigado entrar em meu site!      ')
+    document.write('Meu nome e Vinicius, e minha idade e ')
+    document.write('(ano - idade)')
+    document.write('e gustavo tera  ' + (ano - idade))
+
+     ano = 2030
+
+
+
+
 
   </SCript>  
 </body>
